@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width:fit-content;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.card-img img{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.owl-carousel{
+    background-color: cadetblue;
+    padding-top:20px ;
+}
+.card p{
+    padding: 0 50px;
+    text-align: center;
+} 
+center{
+    margin: 20px;
+}
+center a{
+    padding: 10px 20px;
+    background-color:cadetblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+}

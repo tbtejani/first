@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    text-decoration: underline double;
+    text-underline-offset: 10px;
+    margin:20px 0 30px 0;
+} 
+ul{
+    list-style: none;
+}
+.main-menu{
+    margin-left: 30%;
+}
+a{
+    text-decoration: none;
+}
+.main-menu > li{
+    float: left;
+    background-color: cornflowerblue;
+}
+.main-menu li a{
+    color: #000;
+    padding: 20px 40px;
+    display: block;
+}
+.sub-menu li{
+    clear: both;
+    background-color: rgb(175, 196, 235);
+}
+.sub-menu{
+    display: none;
+}
+.main-menu li:hover .sub-menu{
+    display: block;
+}
+.main-menu li:hover >  a{
+    color:#fff;
+}

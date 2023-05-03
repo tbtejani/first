@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <table align="center" bgcolor="red" width="40%" cellpadding="17"
+            style="background: rgb(96,193,248);
+        background: linear-gradient(180deg, rgba(96,193,248,1) 0%, rgba(129,183,235,1) 25%, rgba(168,175,230,1) 50%, rgba(206,166,216,1) 75%, rgba(250,153,206,1) 100%);">
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">FIRST NAME :</font> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="text" placeholder="Enter first name" required>
+                    <font color="#f2f2f2" size="3">(Max 50 characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">LAST NAME :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="text" placeholder="Enter last name" required>
+                    <font color="#f2f2f2" size="3">(Max 50 characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">EMAIL ID :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp;
+                    <input type="email" placeholder="Enter email id" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">MOBILE NO :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="text" maxlength="10" required placeholder="Enter Mobile no">
+                    <font color="#f2f2f2" size="3">(10 Digits Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">GENDER :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;
+                    <input type="radio" name="m" required>
+                    <font color="#f2f2f2" size="3">Mail</font> &nbsp;
+                    <input type="radio" name="m" required>
+                    <font color="#f2f2f2" size="3">Femail</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">DATE OF BIRTH :</font> &nbsp;&nbsp;
+                    <input type="number" max="31" min="1" placeholder="Day" required>
+                    <select required>
+                        <option disabled selected>Month</option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <input type="number" max="2023" min="1960" placeholder="Year" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">ADDRESS :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;
+                    <textarea cols="40" rows="4" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">CITY :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="text" placeholder="Enter your city name" required>
+                    <font color="#f2f2f2" size="3">(Max 50 characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">PIN CODE :</font> &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="text" placeholder="Enter pin code" required>
+                    <font color="#f2f2f2" size="3">(Max 6 Numbers Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">STATE :</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="text" placeholder="Enter your state" required>
+                    <font color="#f2f2f2" size="3">(Max 50 characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">COUNTRY :</font> &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="text" placeholder="Enter your country" required>
+                    <font color="#f2f2f2" size="3">(Max 50 characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">HOBBIES :</font> &nbsp; &nbsp; &nbsp;&nbsp;
+                    &nbsp; &nbsp; &nbsp;
+                    <input type="checkbox">
+                    <font color="#f2f2f2" size="3">Dancing</font>
+                    <input type="checkbox">
+                    <font color="#f2f2f2" size="3">Drowing</font>
+                    <input type="checkbox">
+                    <font color="#f2f2f2" size="3">Singing</font>
+                    <input type="checkbox">
+                    <font color="#f2f2f2" size="3">Sketching</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="checkbox">
+                    <font color="#f2f2f2" size="3">Others</font>
+                    <input type="text" placeholder="Ex-Teaching">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">QUALIFICATION :</font>
+                    <input type="checkbox"><font color="#f2f2f2" size="3">High School(10th)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <input type="checkbox"><font color="#f2f2f2" size="3">High School(12th)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <input type="checkbox"><font color="#f2f2f2" size="3">Graduation(Bachelors)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <input type="checkbox"><font color="#f2f2f2" size="3">Post Graduation(Masters)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <input type="checkbox"><font color="#f2f2f2" size="3">Phd</font><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="#f2f2f2" size="3">COURSES<br>APPLIED FOR :</font> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">BCA(Bachelor of Computer Applications)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">B.Com(Bachelor of Commerce)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">B.Sc(Bachelor of Science)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">BA(Bachelor of Arts)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">MCA(Master of Computer Applications)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">M.Com(Master of Commerce)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">M.Sc(Master of Science)</font><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="a" id=""><font color="#f2f2f2" size="3">MA(Master of Arts)</font><br>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 28px;
+    width: 310px;
+    background-color: black;
+    margin: 50px auto 0;
+    border-radius: 20px 20px 0 0;
+    padding-top: 15px;
+}
+
+.camera {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(109, 109, 109);
+    margin: auto;
+}
+
+.middle {
+    height: 65vh;
+    width: 301px;
+    margin: auto;
+    border: 5px solid #000;
+    overflow:auto;
+}
+.middle::-webkit-scrollbar{
+    display: none;
+}
+
+.contect {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    padding:5px 0 0 10px;
+}
+
+.info {
+    z-index: -1;
+    padding:12px 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.name {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+
+.number {
+    top: 38px;
+    left: 80px;
+    position: absolute;
+}
+
+
+.bottom {
+    height: 40px;
+    width: 310px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+    border: 2px solid rgb(182, 181, 181);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            height: 65vh;
+            background-color: rgba(145, 209, 34, 0.49);
+            display: flex;
+            /* flex-wrap: nowrap; */
+            flex-wrap: wrap;
+            /* flex-wrap:wrap-reverse; */
+
+            /* justify-content: center; */
+            /* justify-content:flex-end; */
+            /* justify-content: flex-start; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items:flex-start; */
+
+            /* align-content:center; */
+            /* align-content:flex-start; */
+            /* align-content:flex-end;  */
+            /* align-content:space-between;  */
+            /* align-content:space-around;  */
+            align-content:space-evenly;
+        }
+        .main div{
+            width:200px;
+            height: 200px;
+        }
+        .box1{
+            background-color: rgb(40, 217, 63);
+        }
+        .box2{
+            background-color: rgb(19, 179, 232);
+            flex-grow: 15;
+            /* align-self: start; */
+            /* flex-basis: 50px; */
+            /* flex-shrink: 3; */
+        }
+        .box3{
+            background-color: rgb(39, 106, 221);
+        }
+        .box4{
+            background-color: rgb(29, 211, 218);
+        }
+        .box5{
+            background-color: rgb(215, 218, 29);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        <div class="box1">box6</div>
+        <div class="box2">box7</div>
+        <div class="box3">box8</div>
+        <div class="box4">box9</div>
+        <div class="box5">box10</div>
+    </div>
+</body>
+
+</html>

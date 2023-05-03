@@ -1,0 +1,253 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 30px 50px;
+    border: none;
+    transition-duration: 1s;
+}
+
+.btn1 {
+    color: rgb(1, 3, 0);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: -2px -10px 0px #2a324b, 2px 10px 0px #767b91;
+}
+
+.btn1:hover {
+    box-shadow: 10px 2px 0px#767b91, -10px -2px 0px#2a324b;
+}
+
+.btn2 {
+    box-shadow:
+        2px 2px 0px #f7cad0,
+        4px 4px 0px #f9bec7,
+        6px 6px 0px #fbb1bd,
+        8px 8px 0px #ff99ac,
+        10px 10px 0px #ff85a1,
+        12px 12px 0px #ff7096,
+        14px 14px 0px #ff5c8a,
+        16px 16px 0px #ff477e,
+        18px 18px 0px #ff0a54;
+    background-color: #fae0e4;
+}
+
+.btn2:hover {
+    box-shadow: none;
+}
+
+.btn3 {
+    background-image: repeating-linear-gradient(225deg, #1d3557 0% 50%, #457b9d 50% 100%);
+    color: #fff;
+    background-size: 20%;
+}
+
+.btn3:hover {
+    background-position: right;
+    background-size: 300%;
+}
+
+.btn4 {
+    background-image: repeating-linear-gradient(225deg, #d1b3c4 0% 20%, #b392ac 20% 30%);
+    background-size: 450%;
+}
+
+.btn4:hover {
+    background-position: left;
+    background-size: 200%;
+}
+
+.btn5 {
+    background-image: repeating-radial-gradient(circle at 50%, #c9c74f 0% 50%, rgb(217, 57, 57) 50% 100%);
+    background-size: 500%;
+}
+
+.btn5:hover {
+    background-position: right;
+    background-size: 20%;
+}
+
+.btn6 {
+    background-image: repeating-radial-gradient(circle at 50%, #f35b04 0% 40%, #fff 40% 60%, #004b23 60% 80%);
+    background-size: 500%;
+}
+
+.btn6:hover {
+    background-position: right;
+    background-size: 100%;
+}
+
+.btn7 {
+    background-image: repeating-radial-gradient(circle at 50%, #ffccd5 0% 10%, #ff758f 50% 60%);
+    background-position: center;
+    background-size: 200%;
+
+}
+
+.btn7:hover {
+    background-size: 100%;
+}
+
+.btn8 {
+    background-image: radial-gradient(circle at 41%, #38ddef 20% 10%, rgb(91, 191, 153) 10% 0%);
+    background-position: right;
+    background-size: 100%;
+}
+
+.btn8:hover {
+    background-image: radial-gradient(circle at 10%, #38ddef 30% 20%, rgb(91, 191, 153) 10% 0%);
+    background-size: 800%;
+    background-position: left;
+}
+
+.btn9 {
+    background-image: linear-gradient(270deg, #f35b04 0% 10%, #fff 40% 60%, #004b23 90% 100%);
+    background-size: 100%;
+}
+
+.btn9:hover {
+    background-position: right;
+    background-size: 700%;
+}
+
+.btn10 {
+    border-radius: 0% 100% 100% 0% / 50% 50% 50% 50%;
+    background-image: repeating-radial-gradient(circle at 50%, #dee2e6 0% 50%, #adb5bd 50% 100%);
+    background-position: left;
+    background-size: 300%;
+}
+
+.btn10:hover {
+    background-size: 1%;
+    box-shadow: 5px 0px 0px hsl(0, 0%, 90%), 10px 0px 0px hsl(0, 0%, 80%), 15px 0px 0px hsl(0, 0%, 70%), 20px 0px 0px hsl(0, 0%, 60%), 25px 0px 0px hsl(0, 0%, 50%);
+    margin-left: 50px;
+}
+
+.btn11 {
+    background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.btn11:hover {
+    background-size: 400%;
+}
+
+.btn12 {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn12:hover {
+    background-color: #0d7839;
+    color: #fff;
+    box-shadow: 5px 5px 0px #000;
+}
+
+.btn13 {
+    background-color: #354f52;
+    border-radius: 100px 0;
+    outline: 2px solid #84a98c;
+    outline-offset: 2px;
+    color: #fff;
+}
+
+.btn13:hover {
+    border-radius: 0 100px;
+    outline-style: double;
+}
+
+.btn14 {
+    background-color: #735d78;
+    border-radius: 50px 50px 0px;
+    outline: 2px solid #f7d1cd;
+    outline-offset: 2px;
+    color: #fff;
+}
+
+.btn14:hover {
+    border-radius: 0 50px 50px;
+    outline-style: double;
+}
+
+.btn15 {
+    background: #fff;
+    color: blueviolet;
+    border-radius: 50px;
+    border-bottom: 2px solid blueviolet;
+}
+
+.btn15:hover {
+    border-right-color: rgb(238, 103, 238);
+    border-bottom-color: rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+}
+    
+.btn16 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #00BFA6;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px dashed #00BFA6;
+}
+
+.btn16:hover {
+    background-color: #fff;
+    color: #00BFA6;
+}
+
+.btn17 {
+    border-radius: 10px;
+    background: #333;
+    /* box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222; */
+    border: none;
+    color: rgb(161, 161, 161);
+}
+
+.btn17:hover {
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    color: #d6d6d6;
+}
+
+.btn18 {
+    background-image: radial-gradient(circle at 50%, #DB143C 0% 20%, #fff 50% 60%);
+    background-size: 100%;
+    background-position: center;
+}
+
+.btn18:hover {
+    background-image: repeating-radial-gradient(circle at 50%, #DB143C 0% 10%, #fff 10% 20%);
+    background-size: 600%;
+}
+
+.btn19 {
+    background-image: linear-gradient(270deg, #b392ac 0% 10%, #fff 10% 20%);
+    background-size: 100%;
+}
+
+.btn19:hover {
+    background-position: right;
+    background-size: 1000%;
+    color: #e1c8d6;
+}
+
+.btn20 {
+    color: white;
+    border: 2.5px solid transparent;
+    background-image: linear-gradient(45deg, purple, red, orange, red, purple);
+    background-size:500% ;
+    background-position: left;
+}
+
+.btn20:hover {
+    border-radius: 30px;
+    background-position:right;
+    border-color: #000;
+}

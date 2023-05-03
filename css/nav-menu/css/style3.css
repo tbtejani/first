@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.logo {
+    text-align: center;
+    padding: 30px 0;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li {
+    position: relative;
+}
+
+.main-menu li a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px 30px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.bgcolor {
+    background-color: #23282d;
+}
+
+.menu {
+    background-color: #23282d;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #ffb600;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ffb600;
+}
+
+.sub-menu{
+    position: absolute;
+    background-color: #f9f9f9;
+    top: 100%;
+    left: 20px;
+    width: 150px;
+    box-shadow: 0 0 1px rgb(216, 197, 197);
+    display: none;
+    border-top: 3px solid #ffb600;
+}
+
+.sub-menu li a{
+    color: #000;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 0px 15px;
+    
+}
+
+.main-menu li:hover > a{
+    color: #ffb600;
+}
+
+.main-menu li:hover .sub-menu{
+    display: block;
+}
+
+.peta-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    width: 150px;
+    display: none;
+    border-top: 3px solid #ffb600;
+}
+
+.sub-menu li{
+    position: relative;
+}
+
+.sub-menu li:hover .peta-menu{
+    display: block;
+}
+
+.icon2{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
